@@ -1,5 +1,9 @@
 
 .searchBox {
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0;
   margin-bottom: 20px;
 }
 
@@ -13,5 +17,6 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 100%;
-  max-width: 300px;
 }
+
+
