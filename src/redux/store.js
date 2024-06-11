@@ -4,8 +4,6 @@ import storage from 'redux-persist/lib/storage';
 import { combineReducers } from 'redux';
 import contactsReducer from './contactsSlice';
 import filtersReducer from './filtersSlice';
-import { PersistGate } from 'redux-persist/integration/react';
-import { Provider } from 'react-redux';
 
 const rootReducer = combineReducers({
   contacts: contactsReducer,
