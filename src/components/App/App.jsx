@@ -6,7 +6,7 @@ import './App.module.css';
 
 
 const App = () => (
-  <div id="root">
+  <div>
     <h1>Contact Book</h1>
     <ContactForm />
     <SearchBox />
