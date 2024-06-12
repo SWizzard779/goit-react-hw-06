@@ -6,16 +6,18 @@ import ContactForm from '../ContactForm/ContactForm'
 import ContactList from '../ContactList/ContactList';
 import SearchBox from '../SearchBox/SearchBox';
 import { selectContacts } from '../../redux/contactsSlice';
-import './App.module.css';
+import styles from './App.module.css';
 
 
 const App = () => (
-      <div>
+  <>
+      <div className={styles.container}>
         <h1>Contact Book</h1>
         <ContactForm />
         <SearchBox />
         <ContactList />
       </div>
+  </>
 );
 
 export default App;
